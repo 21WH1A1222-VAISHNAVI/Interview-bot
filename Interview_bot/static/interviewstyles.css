@@ -1,0 +1,54 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url("{{ url_for('static', filename='img.png') }}");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #98d4df;
+  color: #094f94;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #bee3ed;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 0.7em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

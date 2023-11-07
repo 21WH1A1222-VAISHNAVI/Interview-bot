@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Questions</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+
+  <header>
+      <h1>Interview Questions</h1>
+  </header>
+
+  <section>
+      <h2>Question <span id="questionNumber">1</span></h2>
+      <p id="questionText">{{ questions[0] }}</p>
+      <label for="answer">Your Answer:</label>
+      <textarea id="answer" name="answer" rows="4" required></textarea>
+
+      <button onclick="nextQuestion()">Next Question</button>
+  </section>
+
+  <script src="./static/script.js"></script>
+
+</body>
+</html>
